@@ -1,0 +1,29 @@
+{% extends 'jargon/base.html' %}
+
+{% block content %}
+<div id ="wrapper">
+
+<div id="form">
+<h2>Submit your jargon below:</h2>
+<form method="POST">{% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Save</button>
+</form>
+</div>
+<div id="output">
+{% if chunks %}
+  <h2>Here's where the jargon is:</h2>
+  {% for chunk in chunks%}
+    {% if chunk.tag == 0 %}
+      <span class='clean'>{{ chunk.text }} </span>
+    {% elif chunk.tag == 1 %}
+      <span class = 'mild-jargon'>{{ chunk.text }} </span>
+    {% elif chunk.tag == 2 %}
+      <span class = 'serious-jargon'>{{chunk.text}} </span>
+    {% endif %}
+  {% endfor %}
+{% endif %}
+</div>
+
+</div>
+{% endblock %}

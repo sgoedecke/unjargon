@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
+
+h1, h2 {
+    font-family: 'Roboto';
+}
+
+
+
+.clean {
+    color: #000000;
+}
+.mild-jargon {
+    color: #cc3300;
+    font-weight: bold;
+}
+.serious-jargon {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+#form {
+  width: 400px;
+  float:left;
+/*  border: 1px solid black; */
+}
+
+#output {
+  overflow: hidden;
+/*  border: 1px solid black;*/
+}
+
+
+#wrapper {
+  width: 800px;
+  overflow: hidden;
+}
