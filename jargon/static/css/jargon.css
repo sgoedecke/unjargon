@@ -4,7 +4,21 @@ h1, h2 {
     font-family: 'Roboto';
 }
 
+body {
 
+background-color: #ffeecc;
+}
+
+.title {
+  margin-left:auto;
+  margin-right:auto;
+  width: 12em;
+  display:block;
+  font-weight: 900;
+  font-size: 200%;
+  font-family: 'Roboto';
+
+}
 
 .clean {
     color: #000000;
@@ -19,13 +33,18 @@ h1, h2 {
 }
 
 #form {
-  width: 400px;
-  float:left;
+  margin-left:auto;
+  margin-right:auto;
+  width: 40em;
+  display:block;
 /*  border: 1px solid black; */
 }
 
 #output {
-  overflow: hidden;
+  margin-left:auto;
+  margin-right:auto;
+  width: 40em;
+  display:block;
 /*  border: 1px solid black;*/
 }
 
@@ -33,4 +52,13 @@ h1, h2 {
 #wrapper {
   width: 800px;
   overflow: hidden;
+}
+
+#footer {
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 50px;
+  width: 40em;
+  display:block;
+
 }

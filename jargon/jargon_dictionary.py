@@ -1,4 +1,3 @@
-#dictionary sample - maybe split this off later
 # 1 is mild code, 2 is serious
 jargon_dict = {
     "adduce" : 1,
@@ -21,7 +20,7 @@ jargon_dict = {
     "on this view" : 1,
     "agen" : 1,
 
-    "deontolog" : 2, #deliberately just left the root here
+    "deontolog" : 2, #deliberately just left the root here, and elsewhere
     "consequential" : 2,
     "obtains" : 2,
     "utilitarian" : 2,
@@ -33,4 +32,6 @@ jargon_dict = {
     "modal" : 2,
     "epistem" : 2,
     "meta-ethic" : 2,
+    "metaethic" : 2,
+    "predicate" : 2,
     }

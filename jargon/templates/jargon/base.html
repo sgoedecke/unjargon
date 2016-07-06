@@ -5,8 +5,11 @@
 	<link rel="stylesheet" href="{% static 'css/jargon.css' %}">
 </head>
 <body>
-  <h1 class="page-header">Welcome to UnJargon!</h1>
+  <p class="title">Welcome to UnJargon!</p>
 
             {% block content %}
             {% endblock %}
+
+	
+	<div id="footer">UnJargon runs on Django. Minor jargon is displayed like <span class = "mild-jargon">this</span>, and very jargon-y jargon is displayed like <span class = "serious-jargon">this</span>.</div>
 <body>
